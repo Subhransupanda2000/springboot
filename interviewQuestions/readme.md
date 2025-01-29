@@ -35,3 +35,27 @@ Transaction	Manages declarative and programmatic transactions.
 Messaging	Supports JMS, RabbitMQ, Kafka, and WebSockets.
 Spring Data	Simplifies database access for relational and NoSQL databases.
 ```
+616.What are the modules in Web layer of Spring framework?
+```
+Spring Web	Core web module with HTTP and multipart file upload support.
+Spring Web MVC	Provides Model-View-Controller (MVC) framework for web apps.
+Spring WebFlux	Reactive web framework for non-blocking, async processing.
+Spring WebSocket	Enables real-time bi-directional communication using WebSockets.
+```
+# importance od core container
+```
+Spring Core	Provides IoC and DI using BeanFactory.
+Spring Beans	Manages Spring Beans and their lifecycle.
+Spring Context	Extends BeanFactory with ApplicationContext for enterprise features.
+Spring Expression Language (SpEL)	Enables dynamic property values and expressions.
+```
+# 618.What kind of testing can be done in Spring Test Module?
+```
+@SpringBootTest	Load the full application context for integration testing.
+@MockBean	Mock a Spring bean in the application context.
+@WebMvcTest	Load only the web layer to test Spring MVC controllers.
+@Transactional	Ensure tests run within a transaction that rolls back by default.
+@ContextConfiguration	Specify the Spring configuration classes or context locations for tests.
+@WithMockUser	Mock an authenticated user for security tests.
+@DirtiesContext	Indicate that the application context is dirty and should be reloaded.
+```
