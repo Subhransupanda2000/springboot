@@ -19,3 +19,19 @@ Advantages of Spring Framework:
 
 Spring is widely used in modern enterprise Java applications due to its scalability, maintainability, and robustness.
 ```
+# 614.What are the modules in Core Container of Spring framework?
+```
+Core	Provides IoC and DI using BeanFactory.
+Beans	Manages Spring Beans and their lifecycle.
+Context	Extends BeanFactory with ApplicationContext for enterprise features.
+SpEL	Expression Language for dynamic property values and queries.
+```
+# 615.What are the modules in Data Access/Integration layer of Spring
+framework?
+```
+JDBC	Simplifies raw JDBC operations using JdbcTemplate.
+ORM	Integrates ORM frameworks like Hibernate and JPA.
+Transaction	Manages declarative and programmatic transactions.
+Messaging	Supports JMS, RabbitMQ, Kafka, and WebSockets.
+Spring Data	Simplifies database access for relational and NoSQL databases.
+```
